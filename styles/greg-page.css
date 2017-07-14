@@ -10,7 +10,7 @@ h3{
 	padding-top: 100px;
 }
 nav{
-	position:fixed; 	
+	 	
 	width :100%;
 	background-color: #eff2f7 ;
 	border :1px #eff2f7  ;
@@ -19,12 +19,12 @@ nav{
 header{
 	font : bold 20px arial, sans-serif;
 	background-color: #eff2f7 ;
-	height:75px;
+	height:50px;
 }
 nav ul{
 	font : bold 20px arial, sans-serif;
 	display: inline-block;
-	padding-left:1500px;
+	padding-left:1200px;
 	list-style: none;
 	color: purple;
 }
@@ -37,6 +37,13 @@ nav  li::after
 {
 	content: " ";
 	margin-right: 30px;
+}
+#jobsearch
+{
+	background: url("../images/magnifying-glass.png") ;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 20px;
 }
 .search{
 padding-top: 20px;
@@ -51,6 +58,8 @@ width: 800px;
 }
 .result-nav{
   margin-top: 40px;
+  margin-right:-5px;
+  margin-left: 0;
   height: 40px;
   width: 100px;
   display: inline-block;
