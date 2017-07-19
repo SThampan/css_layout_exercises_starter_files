@@ -1,0 +1,73 @@
+body{
+	background-color: #0780f2;
+	font-size: 14px;
+ 	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	padding-top: 20px;
+  	font-style: normal;
+  	font-size: 40px;
+  	font-weight: 100;
+ 	font-family: 'Roboto', sans-serif;
+ 	padding-left: 120px;
+ 	margin-bottom: 40px;
+}
+.head{
+	margin-top :75px;
+	text-align:center;
+}
+.logo{
+	height: 35px;
+}
+.signin-form{
+	width: 360px;
+	margin :auto;
+	padding-left :40px;
+	padding-right:40px;
+	background-color: white;
+	height : 500px;
+	border-radius: 5px;
+}
+.signin-form fieldset {
+ 	padding-left: 0;
+  	border: none;
+}
+
+.signin-form label {
+  display: block;
+  margin-bottom: 15px;
+}
+.signin-form input {
+  display: block;
+  width: 320px;
+  padding :15px;
+  height:21	px;
+  border :  2px solid;
+  border-color: #e0e3e5;
+  margin-bottom: 15px;
+}
+
+.signin-form button {
+  display: block;
+  width: 350px;
+  margin-bottom: 15px;
+  height :55px;
+  background-color: #6bc166;
+  color: white;	
+}
+
+.signin-form input::placeholder {
+  color: #e0e3e5;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.signin-form input:invalid {
+  border: 2px red solid;
+}
+.link-url{
+text-decoration:  underline;
+color: grey;
+align: : center;
+}
