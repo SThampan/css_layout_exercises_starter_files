@@ -1,73 +1,100 @@
 body{
 	background-color: #0780f2;
-	font-size: 14px;
- 	font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+	font-family: 'Arial', sans-serif;
+    font-style: bold;
+  	font-size: 20px;
+  	font-weight: 100;
 }
 
 h1 {
 	padding-top: 20px;
   	font-style: normal;
-  	font-size: 40px;
+  	font-size: 35px;
   	font-weight: 100;
  	font-family: 'Roboto', sans-serif;
- 	padding-left: 120px;
- 	margin-bottom: 40px;
+ 	padding-left: 90px;
+ 	margin:0px;
 }
 .head{
-	margin-top :75px;
+	margin-top :50px;
 	text-align:center;
 }
 .logo{
 	height: 35px;
+	margin-bottom :30px;
 }
 .signin-form{
-	width: 360px;
-	margin :auto;
-	padding-left :40px;
-	padding-right:40px;
+	width: 320px;
+	margin :0 auto;
+	padding :40px;
 	background-color: white;
-	height : 500px;
-	border-radius: 5px;
+	border-radius: 3px;
 }
 .signin-form fieldset {
- 	padding-left: 0;
-  	border: none;
-}
+   	border :0;
+   	margin :0;
+   	padding:0;
+  }
 
 .signin-form label {
-  display: block;
-  margin-bottom: 15px;
+  	display: block;
+  	margin-bottom: 15px;
 }
 .signin-form input {
-  display: block;
-  width: 320px;
-  padding :15px;
-  height:21	px;
-  border :  2px solid;
-  border-color: #e0e3e5;
-  margin-bottom: 15px;
+ 	display: block;
+  	width: 290px;
+  	padding:15px;
+	height:21px;
+	border :  2px solid;
+	border-color: #e0e3e5;
+  margin-top :10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
 }
 
 .signin-form button {
-  display: block;
-  width: 350px;
-  margin-bottom: 15px;
-  height :55px;
-  background-color: #6bc166;
-  color: white;	
+  	display: block;
+  	width: 100%;
+    padding :15px;
+  	height :auto;
+    border: 0;
+  	background-color: #6bc166;
+  	color: white;	
+  	font-style: bold;
+  	font-size: 20px;
+  	font-weight: 100;
+  	border-radius: 3px;
 }
 
 .signin-form input::placeholder {
   color: #e0e3e5;
   margin-bottom: 10px;
+  font-style: bold;
   font-size: 20px;
 }
 
 .signin-form input:invalid {
   border: 2px red solid;
 }
+
 .link-url{
-text-decoration:  underline;
-color: grey;
-align: : center;
+	margin :10px 0 0;
+	text-align: center;
+}
+
+.link-url a{
+	color: grey;
+}
+
+.link-footer{
+	color: white;
+	margin-left: : auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.link-footer a{
+	color: white;
 }
